@@ -10,16 +10,22 @@ body {
 /*The Sytles for the header*/
 header {
     background-color: #918f8e;
+    border: 3px solid black;
+    height:80px;
+    padding-bottom: 1px;
 }
 header img {
     float:left;
-    margin-left:20px;
+    margin-left:50px;
     background-color: #918f8e;
+    height: 75px;
+    
 }
 header h2 {
     font-size: 200%;
     text-align: center;
     color: #e86427;
     text-shadow: 2px 2px 2px black;
-    height: 100px;
+    height: 75px;
+    
 }
