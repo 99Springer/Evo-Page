@@ -27,5 +27,24 @@ header h2 {
     color: #e86427;
     text-shadow: 2px 2px 2px black;
     height: 75px;
+}
+/*Styling for the Nav Menu*/
+#nav_menu ul{
+    list-style-type:none;
+    margin-left:0;
+    margin-right:1.5em;
+    padding:0;
+}
+#nav_menu ul li{
+    width:200px;
+    margin-bottom: .5em;
+    border:2px solid black;
     
+}
+#nav_menu ul li a{
+    display:block;
+    padding: .5em 0 .5em 1.5em;
+    text-decoration: none;
+    font-weight:bold;
+    color: black;
 }
