@@ -71,3 +71,16 @@ main article{
     font: 100%;
     color: black;
 }
+main aside{
+    float:right;
+}
+main aside h2 {
+    font-size:150%;
+    font-weight: bold;
+    color: black;
+    text-decoration: underline;
+    text-align: center;
+}
+main aside img {
+    border: 2px solid black;
+}
