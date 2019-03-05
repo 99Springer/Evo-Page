@@ -62,3 +62,12 @@ header h2 {
     
 }
 #nav_menu ul li a.current {color: #e86427;}
+main article h1{
+    font-size: 175%;
+    font-weight: bold;
+    color:black;
+}
+main article{
+    font: 100%;
+    color: black;
+}
