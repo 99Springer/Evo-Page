@@ -62,6 +62,21 @@ header h2 {
     
 }
 #nav_menu ul li a.current {color: #e86427;}
+
+main ul{
+    list-style-type: none;
+    border-bottom: 2px solid black;
+    padding-left: 20%;
+}
+main ul li{
+    display:inline;    
+}
+main ul li img{
+    height: 100px;
+    margin-left:20px;
+    border: 2px solid black;
+    
+}
 main article h1{
     font-size: 175%;
     font-weight: bold;
@@ -80,7 +95,4 @@ main aside h2 {
     color: black;
     text-decoration: underline;
     text-align: center;
-}
-main aside img {
-    border: 2px solid black;
 }
