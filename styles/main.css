@@ -6,7 +6,7 @@ html{
 body {
     font-family:Arial, Helvetica, sans-serif;
     font-size:100%;
-    max-width:960px;
+    width:95%;
     margin:0 auto 0;
     padding:15px;
     background-color:#cfcdccd3;
@@ -62,7 +62,10 @@ header h2 {
     
 }
 #nav_menu ul li a.current {color: #e86427;}
-
+main{
+    width:95%%;
+    
+}
 main ul{
     list-style-type: none;
     border-bottom: 2px solid black;
@@ -84,9 +87,12 @@ main article h1{
 }
 main article{
     font: 100%;
+    width:70%;
+    float:left;
     color: black;
 }
 main aside{
+    width:25%;
     float:right;
 }
 main aside h2 {
@@ -95,4 +101,10 @@ main aside h2 {
     color: black;
     text-decoration: underline;
     text-align: center;
+}
+main aside ul.disc {list-style-type:disc;}
+
+main aside ul li{
+    font-size: 100%;
+    display:block;
 }
