@@ -87,12 +87,12 @@ main article h1{
 }
 main article{
     font: 100%;
-    width:70%;
+    width:65%;
     float:left;
     color: black;
 }
 main aside{
-    width:25%;
+    width:30%;
     float:right;
 }
 main aside h2 {
@@ -103,13 +103,13 @@ main aside h2 {
     text-align: center;
 }
 main aside ul{
-    margin: 0;
+    margin: 10px;
     padding: 0;
-    
 }
-
+#circle{
+    list-style-type: circle;
+}
 main aside ul li{
     font-size: 100%;
     display:block;
-    list-style-type: disc !important;
 }
