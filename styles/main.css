@@ -72,7 +72,10 @@ header h2 {
   color: #e86427;
 }
 
-#nav_menu ul li a.current {color: #e86427;}
+#nav_menu ul li a.current {
+  color: #e86427;
+}
+
 .main{
     width:100%;
 }
