@@ -14,12 +14,15 @@ body {
     border: 5px solid black; 
     
 }
+
 a:hover, a:focus {
     font-style:italic;
 }
+
 a:visited {
     color:#e86427;
 }
+
 /*The Sytles for the header*/
 header {
     background-color: #918f8e;
@@ -27,6 +30,7 @@ header {
     height:80px;
     padding-bottom: 5px;
 }
+
 header img {
     float:left;
     margin-left:75px;
@@ -35,6 +39,7 @@ header img {
     height: 75px;
     
 }
+
 header h2 {
     font-size: 200%;
     text-align: center;
@@ -42,7 +47,6 @@ header h2 {
     text-shadow: 2px 2px 2px black;
     height: 75px;
 }
-
 
 /*Styling for the Nav Menu*/
 #nav_menu ul{
@@ -52,49 +56,60 @@ header h2 {
     border-top: 2px solid black;
     border-bottom: 2px solid black;
 }
+
 #nav_menu ul li{
     display: inline;
     padding: 0 1.5em;
     
 }
+
 #nav_menu ul li a{
     font-weight: bold;
     color: black;
-    
 }
-#nav_menu ul li a.current {color: #e86427;}
+
+#nav_menu ul li a.current {
+  color: #e86427;
+}
+
 .main{
     width:100%;
 }
-.main ul{
+
+.main ul.photos{
     list-style-type: none;
     border-bottom: 2px solid black;
     padding-left: 20%;
 }
-.main ul li{
+
+.main ul.photos li{
     display:inline;    
 }
-.main ul li img{
+
+.main ul.photos li img{
     height: 100px;
     margin-left:20px;
     border: 2px solid black;
-    
 }
+
 .main article h1{
     font-size: 175%;
     font-weight: bold;
     color:black;
 }
+
 .main article{
     font-size:100%;
     width:65%;
     float:left;
     color: black;
 }
-.main aside{
+
+.main aside {
     width:30%;
     float:right;
 }
+
 .main aside h2 {
     font-size:150%;
     font-weight: bold;
@@ -102,15 +117,17 @@ header h2 {
     text-decoration: underline;
     text-align: center;
 }
+
 .main aside ul{
     margin: 10px;
     padding: 0;
 }
-.main{
-    list-style-type: circle;
-    
+
+.main ul.facts{
+    list-style: outside circle;
 }
+
 .main aside ul li{
     font-size: 100%;
-    display:block;
+    /*display:block;*/
 }
