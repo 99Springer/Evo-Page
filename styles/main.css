@@ -19,7 +19,7 @@ a:hover, a:focus {
 a:visited {
     color:#e86427;
 }
-ul.circle{list-style-type:circle;}
+main aside ul.circle{list-style-type:circle;}
 /*The Sytles for the header*/
 header {
     background-color: #918f8e;
@@ -67,7 +67,7 @@ main{
     width:95%;
 }
 main ul{
-    /*list-style-type: none;*/
+    list-style-type: none;
     border-bottom: 2px solid black;
     padding-left: 20%;
 }
@@ -102,7 +102,14 @@ main aside h2 {
     text-decoration: underline;
     text-align: center;
 }
+main aside ul{
+    margin: 0;
+    padding: 0;
+    
+}
+
 main aside ul li{
     font-size: 100%;
     display:block;
+    list-style-type: disc !important;
 }
