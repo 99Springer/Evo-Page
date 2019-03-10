@@ -30,7 +30,9 @@ aside {
 	width: 30%;			
 	float: right;
 	padding-left: 5%;		
-	padding-bottom: 5%;	
+    padding-bottom: 5%;
+    height: auto;
+    
 }
 
 a:hover, a:focus {
@@ -124,14 +126,17 @@ section h1{
 }
 
 article div{
-    column-count: 2;
+    border:2px solid black;
+    padding:2em;
+    margin-bottom:2em;
 }
 aside h2 {
     font-size:150%;
     font-weight: bold;
     color: black;
-    text-decoration: underline;
+    text-decoration: none;
     text-align: center;
+    padding-bottom:.25em;
 }
 
 aside ul{
@@ -141,6 +146,9 @@ aside ul{
 
 ul.facts{
     list-style: outside circle;
+    border:2px solid black;
+    padding: 2em;
+    
 }
 
 aside ul li{
