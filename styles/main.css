@@ -36,7 +36,7 @@ aside {
     padding-bottom: 5%;
     height: auto;
     position: absolute;
-    top: 20px;
+    top: 25px;
     right: 20px;    
 }
 
@@ -77,18 +77,32 @@ header h2 {
 /*Styling for the Nav Menu*/
 #nav_menu ul{
     list-style-type: none;
-    padding:1em 0;
-    text-align: center;
+    position: relative;   
     border-top: 2px solid black;
     border-bottom: 2px solid black;
 }
 
 #nav_menu ul li{
-    display: inline;
+    float: left;
     padding: 0 1.5em;
     
 }
 
+#nav_menu ul ul {
+    display: none;  /* Don't display the submenus until hover of li*/
+    position: absolute;
+    top: 100%;
+}
+#nav_menu ul ul li {float: none;} /* Display submenus vertically*/
+#nav_menu ul li:hover > ul {
+    display: block;
+}
+
+#nav_menu >ul::after {
+    content: "";        /*Add empy content to the end of the first UL*/
+    display: block;     /*Display that content as a block element */
+    clear: both;        /*Stop the floating of the LI elements*/
+}
 #nav_menu ul li a{
     font-weight: bold;
     color: black;
@@ -101,9 +115,6 @@ header h2 {
 #nav_menu ul li a.current {
   color: #e86427;
 }
-
-
-
 ul.photos{
     list-style-type: none;
     border-bottom: 2px solid black;
@@ -136,6 +147,7 @@ article h1{
     color: #918f8e;
     text-shadow: 2px 2px 2px black;
     text-align: center;
+    padding-bottom: .25em;
 }
 
 article div{
