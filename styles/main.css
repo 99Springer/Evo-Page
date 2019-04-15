@@ -50,7 +50,7 @@ a:visited {
 
 /*The Sytles for the header*/
 header {
-    background-color: #918f8e;
+    background-color: #e86427;
     height:80px;
     padding-bottom: 5px;
     
@@ -74,19 +74,15 @@ header h2 {
     padding-top:.75em;
 }
 
-/*Styling for the Nav Menu*/
+/*Operation for the Nav Menu*/
 #nav_menu ul{
-    list-style-type: none;
+    list-style: none;
     position: relative;   
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
+    margin: 0;
+    padding: 0;
 }
 
-#nav_menu ul li{
-    float: left;
-    padding: 0 1.5em;
-    
-}
+#nav_menu ul li {float: left;}
 
 #nav_menu ul ul {
     display: none;  /* Don't display the submenus until hover of li*/
@@ -94,15 +90,31 @@ header h2 {
     top: 100%;
 }
 #nav_menu ul ul li {float: none;} /* Display submenus vertically*/
+
 #nav_menu ul li:hover > ul {
-    display: block;
+    display: block; /*Selects the child of the li element*/
 }
 
-#nav_menu >ul::after {
+#nav_menu > ul::after {
     content: "";        /*Add empy content to the end of the first UL*/
     display: block;     /*Display that content as a block element */
     clear: both;        /*Stop the floating of the LI elements*/
+} 
+
+/*Styling for the Nav Menu */
+#nav_menu ul {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding-bottom: 1em;
 }
+#nav_menu ul li {
+    padding: 0 1.5em;
+}
+
+#nav_menu ul li ul {
+    background-color: black;
+}
+
 #nav_menu ul li a{
     font-weight: bold;
     color: black;
@@ -115,6 +127,8 @@ header h2 {
 #nav_menu ul li a.current {
   color: #e86427;
 }
+
+/*Styling for the "Photo Bar" */
 ul.photos{
     list-style-type: none;
     border-bottom: 2px solid black;
